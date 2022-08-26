@@ -1,0 +1,408 @@
+body{
+    margin:0;
+}
+.header_1{
+    background-color: hsl(198, 98%, 22%);
+    height: 67%;
+    font-size: 14px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.quote{
+    width: 96%;
+}
+.header_2{
+    float: right;
+    width: 462px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    background: #d1d1d4;
+    font-size: 12px;
+    padding-right: 128px;
+}
+.h_2_heading
+{
+    padding-left: 19px;
+}
+.header_wrapper{
+    height: 104px;
+    background-color: #d1d1d4;
+}
+.h_2_symbol{
+    padding-left: 24px;
+}
+.counter_qty{
+    position: relative;
+    display: inline-block;
+    max-width: 39%;
+    border-radius: 50%;
+    border: 0;
+    font-size:11px;
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+    background: #dd2121;
+    width: 15px;
+    height: 15px;
+    line-height: 14px;
+    top: -11px;
+    right: 5px;
+    font-family: 'Gotham Narrow Book';
+}
+#search_icon{
+    font-size: 15px;
+    color: black;
+}
+#cart_icon{
+    font-size: 30px;
+    width: 5px;
+    height: 10px;
+}
+
+.logo{
+    width: 100%;
+    background-color: #ffffff;
+}
+.timex_logo{
+    padding-left: 725px;
+    padding-bottom: 7px;
+    padding-top: 21px;
+}
+.navigation_bar{
+    height: 30px;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    box-shadow:dimgrey;
+    background-color: #ffffff;
+}
+.nav_row{
+    list-style-type: none;
+    padding-left: 199px;
+    padding-bottom: 29px;
+    font-family: 'Gotham Narrow Book';
+}
+.nav_row > li{
+    display: inline;
+    padding-left: 83px;
+}
+.nav_body{
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 .8px 6px #404040;
+}
+.container{
+    width: 100%;
+    height: 470px;
+    background-color: #8d1b1b;
+    margin-top: 20px;
+    position: relative;
+}
+.quote_1{
+    position: absolute;
+    top:31%;
+    left: 38%;
+    transition: translate(-50%,50%);
+    font-size: 20px;
+    font-family: 'Gotham Narrow Book';
+    color: #ffffff;
+}
+.quote_2{
+    position: absolute;
+    top: 45%;
+    left: 40%;
+    transition: translate(-50%,50%);
+    font-size: 16px;
+    font-family: 'Gotham Narrow Book';
+    color: #ffffff;
+}
+.button_3{
+    position: absolute;
+    top: 55%;
+    left: 42%;
+    background-color: #ffffff;
+    width: 238px;
+    height: 36px;
+    font-family: 'Gotham Narrow Book';
+    color: black;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.button_3>a{
+    outline: none;
+    text-decoration: none;
+}
+.side_chat_button{
+    position: absolute;
+    top: 128px;
+    right: 16px;
+}
+.previous_button{
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    width: 59px;
+    height: 59px;
+}
+.main_box{
+    margin-top: 10px;
+    width: 100%;
+    background-color: ffffff;
+    height: 446px;
+    padding-top: 42px;
+    padding-bottom: 27px;
+}
+.sub_box_1{
+    background-color: #ffffff;
+    width: 29%;
+    height: 96%;
+    margin-left: 326px;
+    float: left;
+}
+.button_box_1{
+    margin-left: 106px;
+    margin-top: 12px;
+}
+.sub_box_2{
+    background-color: #ffffff;
+    width: 29%;
+    height: 96%;
+    margin-left: 21px;
+    float: left;
+}
+.button_box_2{
+    margin-left: 106px;
+    margin-top: 12px;
+}
+.main_box_2{
+    width: 100%;
+    height: 450px;
+    padding-top: 42px;
+    padding-bottom: 27px;
+    margin-top: 10px;
+    background-color: #ffffff;
+}
+.sub_box_1_2{
+    background-color: #ffffff;
+    width: 23%;
+    height: 96%;
+    margin-left: 228px;
+    float: left;
+    text-align: center;
+    font-family: 'Gotham Narrow';
+    font-size: 16px;
+}
+.sub_box_2_2{
+    background-color: #ffffff;
+    width: 41%;
+    height: 96%;
+    margin-left: 84px;
+    float: left;
+}
+.main_box_2>.sub_box_1_2>p>span{
+    display: block;
+}
+.texts_1{
+    margin-top: 0;
+}
+.text_box{
+    background-color: #ffffff;
+    width: 100%;
+    height: 59px;
+    font-family: 'Gotham Narrow';
+    text-align: center;
+}
+.text_box>h3{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    text-align: center;
+    color: #6c6c6b;
+    margin: 0;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.main_box_6{
+    background-color:#ffffff;
+    width: 100%;
+    height: 450px;
+}
+.subox_1{
+    background-color:#ffffff ;
+    width: 17%;
+    height: 96%;
+    margin-left: 83px;
+    float: left;
+    text-align: center;
+}
+.wtcwatch_imgh_img{
+    opacity: 1;
+    transition: 0.3s;
+}
+.watch_img:hover {opacity: 0.5}
+.product_name>a{
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+
+    height: 44px;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #232323;
+    margin: 0 auto;
+    width: 100%;
+}
+.product_name{
+    
+    font-size: 14px;
+}
+
+.red_box{
+    background: red;
+    color: #ffffff;
+    width: 46px;
+    height: 14px;
+    border-radius: 5px;
+    font-size: 10px;
+    display: inline-block;
+    padding: 2px;
+}
+.subox_2{
+    background-color: #ffffff;
+    width: 17%;
+    height: 96%;
+    margin-left: 10px;
+    float: left;
+}
+.subox_3{
+    background-color:#ffffff;
+    width: 17%;
+    height: 96%;
+    margin-left: 10px;
+    float: left;
+}
+.subox_4{
+    background-color: #ffffff;
+    width: 17%;
+    height: 96%;
+    margin-left: 10px;
+    float: left;
+}
+.subox_5{
+    background-color: #ffffff;
+    width: 17%;
+    height: 96%;
+    margin-left: 10px;
+    float: left;
+}
+.main_box_3{
+    background-color: #ffffff;
+    margin-top: 10px;
+    width: 100%;
+    height: 647px;
+}
+.sub_box_1_3{
+    background-color: #ffffff;
+    width: 26%;
+    height: 96%;
+    margin-left: 119px;
+    float: left;
+    margin-top: 16px;
+}
+.sub_box_1_4{
+    background-color: #ffffff;
+    width: 26%;
+    height: 96%;
+    margin-left: 38px;
+    float: left;
+    margin-top: 16px;
+}
+.sub_box_3{
+    background-color: #ffffff;
+    width: 26%;
+    height: 96%;
+    margin-left: 38px;
+    float: left;
+    margin-top: 16px;
+}
+.btn_shop_now
+{
+    margin-left: 80px;
+    margin-top: 39px;
+}
+.img_txt{
+    background-image: url(image/waterbury-bootomN.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 971px;
+}
+.text_1{
+    font-size: 14px;
+    margin-left: 1037px;
+    padding-top: 78px;
+    color: #fff;
+    width: 287px;
+}
+.text_2{
+    margin-left: 594px;
+    padding-top: 247px;
+    font-size: 40px;
+    color: #fff;
+    font-weight: bold;
+}
+.text_3{
+    font-size: 18px;
+    margin-left: 646px;
+    padding-top: 0px;
+    color: #fff;
+    width: 287px;
+}
+.text_4{
+    font-size: 14px;
+    margin-left: 96px;
+    padding-top: 0px;
+    color: #fff;
+    width: 287px;
+}
+.main_box_5{
+    background-color:#ffffff;
+    margin-top: 10px;
+    width: 42%;
+    height: 210px;
+    margin-left: 453px;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.main_box_5>h3{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-top: 0;
+    margin-bottom: 18px;
+}
+.social_media{
+    margin-left: 34%;
+}
+
+
+
+
+
